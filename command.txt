@@ -1,0 +1,10 @@
+python httpC.py -nf 3 -n 4 -i 0.5 -f http://www.learningfreedomandtheweb.org/Mozilla_LFW.pdf https://pbs.twimg.com/media/D4M0KZxXkAAfGna.jpg https://www.ltmuseumshop.co.uk/static/media/catalog/product/1/3/135283.png www.pdf995.com/samples/pdf.pdf https://images-na.ssl-images-amazon.com/images/I/91NB6SgUv4L._SL1500_.jpg -o home -r
+
+
+python httpC.py -nf 1 -n 4 -i 2 -f http://www.learningfreedomandtheweb.org/Mozilla_LFW.pdf -o home
+
+
+
+python httpC.py -nf 4 -n 4 -i 3 -f https://pbs.twimg.com/media/D4M0KZxXkAAfGna.jpg http://www.learningfreedomandtheweb.org/Mozilla_LFW.pdf https://www.ltmuseumshop.co.uk/static/media/catalog/product/1/3/135283.png www.pdf995.com/samples/pdf.pdf https://images-na.ssl-images-amazon.com/images/I/91NB6SgUv4L._SL1500_.jpg -o home -r
+
+python httpC.py -nf 3 -n 4 -i 3 -f https://pbs.twimg.com/media/D4M0KZxXkAAfGna.jpg www.pdf995.com/samples/pdf.pdf https://images-na.ssl-images-amazon.com/images/I/91NB6SgUv4L._SL1500_.jpg -o home -r
