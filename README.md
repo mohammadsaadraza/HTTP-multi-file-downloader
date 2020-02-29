@@ -11,10 +11,10 @@ designed for the purpose of a Specific Byte Range Download on an independent Con
 designed to allot each file a specific thread so that all files download in parallel. It uses the start_connection function to further thread its download on multiple connections. At the end of this functions all the binary files downloaded on the start_connection thread are combined to a single binary file.
 ## USAGE
 #### Example Command
-	Open command prompt in the directory that has been zipped with this file. Type the following command:
+Open command prompt in the directory that has been zipped with this file. Type the following command:
 
-python httpC.py -nf 3 -n 4 -i 0.5 -f https://pbs.twimg.com/media/D4M0KZxXkAAfGna.jpg https://www.ltmuseumshop.co.uk/static/media/catalog/product/1/3/135283.png www.pdf995.com/samples/pdf.pdf https://images-na.ssl-images-amazon.com/images/I/91NB6SgUv4L._SL1500_.jpg -o home -r
+    python httpC.py -nf 3 -n 4 -i 0.5 -f https://pbs.twimg.com/media/D4M0KZxXkAAfGna.jpg https://www.ltmuseumshop.co.uk/static/media/catalog/product/1/3/135283.png www.pdf995.com/samples/pdf.pdf https://images-na.ssl-images-amazon.com/images/I/91NB6SgUv4L._SL1500_.jpg -o home -r
 
 The above command specifies 3 images to be downloaded into the directory “home”. The can’t download states that server restricts permission to download. The output for the command will be:
 
-![example img](../example.png "Example command")
+![example img](./example.png "Example command")
